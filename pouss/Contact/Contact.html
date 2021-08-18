@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="haut">
+
+        <div class="titre">
+            <div id="logo">
+                <div  class=""></div> <img src="images/logo1.svg" alt="">
+            </div>
+            <div class="title">
+                <h1>Pouss'Toujours </h1>
+                <div class="devise">Des tondeuses qui défendent vos valeurs</div>
+            </div>
+            <div class="contenair">
+                <div class="logo">
+                    <ul class="icone">
+                        <li id ="icon1"class="icone"><a href=""><img src="images/localisation.png"
+                                    alt=""><span>Angoulême</span></a>
+                        </li>
+                        <li id ="icon2" class="icone"><a href=""><img src="images/paniers.png" alt=""><span>Mon
+                                    Paniers</span></a></li>
+
+                        <li id ="icon3" class="icone"><a href=""><img src="images/Compte.png" alt=""><span>Mon Compte</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <nav class="menu ">
+            <nav class="menu ">
+                <div class="wrapper col">
+                    
+                     
+                    <div id="burger"><img src="images/menu_bruger.png" alt="" width="40" height="40">
+                    </div>
+                    
+            <ul class="menu">
+                <li>
+                    <a href=""><div id="manuelles" style="text-transform: uppercase;">Tondeuse manuelles</div></a>
+                </li>
+                <li>
+                    <a href=""><div id="electriques" style="text-transform: uppercase;">Tondeuse electriques</div></a>
+                </li>
+                <li>
+                    <a href=""><div id="thermiques" style="text-transform: uppercase;">Tondeuse thermiques</div> </a>
+                </li>
+            </ul>
+                <div class="search">
+                    <div class="sb"><a href=""><img src="images/search.svg" alt="search">
+                        </a></div>
+                    
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="fil">
+            <nav aria-label="fil" class="fil wrapper">
+                <a href="">ACCUEIL</a> >
+                <a href="">Contact</a>
+            </nav>
+        </div>
+
+        <div class="Contact_wrapper"></div>
+
+        <h2>Contact</h2>
+
+        <div class="princip_bloc wrapper">
+            <div class="inframe"> <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11156.595314280516!2d0.181667!3d45.64783289999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1615456063806!5m2!1sfr!2sfr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+            <div class="pouss_toujours">
+                <div class="txt">
+                    <h3>Pouss’Toujours</h3>
+                    <p>1, rue de l’herbe<br>16000 Angoulême<br>FRANCE</p>
+                </div>
+                <div class="txt">
+                    <p>Du Lundi au vendredi <br>
+                        De 10H à 17h00</p>
+
+                    <a href="tel:+33545929292">Tél : +33 5 45 92 92 92</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="Contacter">
+            <div>
+                <h4 class="contacter">Nous envoyer un message</h4>
+                <span class="complet">
+                    Merci de compléter tous les champs.
+                </span>
+            </div>
+            <div class="form">
+                <form method="post">
+                    <div class="formulaires">
+                        <label for="Prenom">Prenom:</label>
+                        <input type="text" name="Prenom" id="Prenom" size="5" placeholder="Prenom" required /><span
+                            id='mPrenom'></span>
+                    </div>
+
+
+
+                    <div class="formulaires">
+                        <label for="Nom">Nom:</label>
+                        <input type="text" name="Nom" id="Nom" size="50" placeholder="Nom" required />
+                        <span id='mNom'></span>
+                    </div>
+
+
+                    <div class="formulaires">
+                        <label for="Téléphone">Téléphone:</label>
+                        <input type="tel" name="Téléphone" pattern="[0-9]" id="Téléphone" size="10" placeholder="Téléphone"
+                            required  /><span id='mTel'></span>
+                    </div>
+
+
+                    <div class="formulaires">
+                        <label for="Mail">Mail:</label>
+                        <input type="text" name="Mail" id="Mail" size="50" placeholder="Mail" required /><span
+                            id='mMail'></span>
+                    </div>
+
+                </form>
+
+                <div class="post">
+
+                    <form method="post">
+                        <p>Votre message</p>
+
+                        <textarea cols="20" rows="2" name="montextarea"
+                            onkeyup="javascript:MaxLengthTextarea(this, 244);"></textarea>
+                    </form>
+                </div>
+            </div>
+            <nav class="envois">
+                <button id="cta" type="submit" id="my_button">Envoyer</button>
+            </nav>
+        </div>
+    </main>
+
+    <footer>
+        <div class="Footer wrapper">
+            <ul class="Les_tondeuses">
+                <li>
+
+                    <a href="">TONDEUSES MANUELLES</a> <br>
+                    <a href="">TONDEUSES ÉLÉCTRIQUES </a> <br>
+                    <a href="">TONDEUSES THERMIQUES</a>
+                </li>
+            </ul>
+
+            <ul class="Mention_légales">
+                <li>
+                    <a href="">MENTION LÉGALES</a> <br>
+                    <a href="">PLAN DU SITE</a><br>
+                    <a href="">CGV</a>
+                </li>
+
+            </ul>
+
+            <ul class=réseaux_Sociaux>
+                <li>
+                    <p>Nous contacter</p>
+
+                    <a href=""><img src="images/facebook.png" alt=""></a>
+
+                    <a href=""><img src="images/facebook.png" alt=""></a>
+
+                    <a href=""><img src="images/facebook.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        <ul class="adresses">
+            <li>
+                <p><B>Pouss'Toujours</B>-1 rue de l'herbe -16000 Angoulême - 05 45 92 92 92; Tous droits réservés</p>
+            </li>
+        </ul>
+
+    </footer>
+
+    <script>
+
+        
+let iconElt = document.getElementById('burger');
+
+iconElt.addEventListener('click',function(){
+menuElt = document.querySelector('ul.menu');
+
+/*si menuElt a une classe visible
+alors on la supprime 
+sinon on ajoute une classe is_visible*/
+if(menuElt.classList.contains('is_visible')){
+    menuElt.classList.remove('is_visible')
+}else{
+    menuElt.classList.add('is_visible');
+}
+
+
+console.log(menuElt)
+});
+        var formValid = document.getElementById('my_button');
+        var prenom = document.getElementById('Prenom');
+        var nom = document.getElementById('Nom');
+        var tel = document.getElementById('Téléphone');
+        var mail = document.getElementById('Mail');
+        var prenomValid = /^[a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+([-'\s][a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+)?$/;
+        var nomValid = /^[a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+([-'\s][a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+)?$/;
+        var telValid = /^(\\+33|0|0033)[0-9]{9}$/;
+        var mailValid = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;    
+
+        formValid.addEventListener('click', validation);
+
+        function validation(event) {
+            //Si le champs est vide 
+            //Prenom
+            if (prenom.validity.valueMissing) {
+                event.preventDefault();
+                mPrenom.textContent = 'Prénom manquant';
+                mPrenom.style.color = 'red';
+            }else if (prenomValid.test(prenom.value) == false){
+                    event.preventDefault();
+                    mPrenom.textContent = 'Merci de remplir le champ correctement ';
+                    mPrenom.style.color = 'orange';
+                }
+                
+            //Nom
+            if (nom.validity.valueMissing) {
+                event.preventDefault();
+                mNom.textContent = 'Nom manquant';
+                mNom.style.color = 'red';
+            }else if (nomValid.test(nom.value) == false){
+                    event.preventDefault();
+                    mNom.textContent = 'Merci de remplir le champ correctement ';
+                    mNom.style.color = 'orange';
+                } 
+
+                //Tél
+            if (tel.validity.valueMissing) {
+                event.preventDefault();
+                mTel.textContent = 'Téléphone manquant';
+                mTel.style.color = 'red';
+            }else if (telValid.test(tel.value) == false){
+                    event.preventDefault();
+                    mTel.textContent = 'Veuillez indiquez un numéro de téléphone correct ';
+                    mTel.style.color = 'orange';
+                } 
+
+            //Mail
+            if (mail.validity.valueMissing) {
+                event.preventDefault();
+                mMail.textContent = 'Mail manquant';
+                mMail.style.color = 'red';
+            }else if (mailValid.test(mail.value) == false){
+                    event.preventDefault();
+                    mMail.textContent = 'Merci de remplir une adresse mail valide ';
+                    mMail.style.color = 'orange';
+                }
+
+        }
+
+        function MaxLengthTextarea(objettextarea, maxlength) {
+            if (objettextarea.value.length > maxlength) {
+                objettextarea.value = objettextarea.value.substring(0, maxlength);
+                alert('Votre texte ne doit pas dépasser ' + maxlength + ' caractères!');
+            }
+        }
+    </script>
+</body>
+
+</html>

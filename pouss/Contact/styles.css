@@ -1,0 +1,725 @@
+html,
+body {
+    margin: 0;
+}
+
+/*==============================================================
+Header
+==============================================================*/
+
+header {
+    background-color: #E2D2C3;
+    width: 100;
+    padding: 0;
+
+}
+
+.menu a {
+    background: #1B5734;
+    color: #FFFBF7;
+
+
+}
+
+.menu {
+    background: #1B5734;
+    box-shadow: #1B5734 0 0 6px;
+}
+
+.col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.devise {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav.menu a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+}
+
+nav.menu li.active {
+    background: #fff;
+    color: #1B5734;
+}
+
+nav.menu li a:hover {
+    background: #fff;
+    color: #1B5734;
+}
+
+
+
+.search:hover .loupe {
+    fill: #1B5734;
+    background: #fff;
+    color: #1B5734;
+}
+
+.search .loupe.active {
+    background: #fff;
+    color: #1B5734;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1::after {
+    content: url(image/Feuille\ logo.svg);
+}
+
+.wrapper {
+    width: 1200px;
+    max-width: 1200px;
+}
+
+.icone img {
+    display: flex;
+    margin: auto;
+    margin-bottom: 0%;
+}
+
+li.icone {
+    margin-right: 10px;
+}
+
+ul.menu {
+    display: flex;
+    flex-direction: row;
+    margin-right: 400px;
+}
+
+#burger {
+    position: relative;
+    left: -4000px;
+}
+
+li#icon1:hover {
+    cursor: pointer;
+
+    -webkit-transform: scale(1.10);
+    /* Safari et Chrome */
+    -moz-transform: scale(1.10);
+    /* Firefox */
+    -ms-transform: scale(1.10);
+    /* Internet Explorer 9 */
+    -o-transform: scale(1.10);
+    /* Opera */
+    transform: scale(1.10);
+    transition: 1s;
+}
+
+li#icon2:hover {
+    cursor: pointer;
+
+    -webkit-transform: scale(1.10);
+    /* Safari et Chrome */
+    -moz-transform: scale(1.10);
+    /* Firefox */
+    -ms-transform: scale(1.10);
+    /* Internet Explorer 9 */
+    -o-transform: scale(1.10);
+    /* Opera */
+    transform: scale(1.10);
+    transition: 1s;
+}
+
+li#icon3:hover {
+    cursor: pointer;
+
+    -webkit-transform: scale(1.10);
+    /* Safari et Chrome */
+    -moz-transform: scale(1.10);
+    /* Firefox */
+    -ms-transform: scale(1.10);
+    /* Internet Explorer 9 */
+    -o-transform: scale(1.10);
+    /* Opera */
+    transform: scale(1.10);
+    transition: 300ms;
+}
+
+nav.menu li a:hover {
+    /* Le bouton est grossie de 10% */
+    -webkit-transform: scale(1.10);
+    /* Safari et Chrome */
+    -moz-transform: scale(1.10);
+    /* Firefox */
+    -ms-transform: scale(1.10);
+    /* Internet Explorer 9 */
+    -o-transform: scale(1.10);
+    /* Opera */
+    transform: scale(1.10);
+    transition: all 500ms;
+    box-shadow: 1px 1px 2px 1px #8DA96A;
+
+}
+
+#manuelles {
+    transition: 2s,
+
+        opacity 3s;
+}
+
+#electriques {
+    transition: 2s,
+        opacity 3s;
+}
+
+#thermiques {
+    transition: 2s,
+        opacity 3s;
+}
+
+.search :hover {
+    cursor: pointer;
+
+    -webkit-transform: scale(1.10);
+    /* Safari et Chrome */
+    -moz-transform: scale(1.10);
+    /* Firefox */
+    -ms-transform: scale(1.10);
+    /* Internet Explorer 9 */
+    -o-transform: scale(1.10);
+    /* Opera */
+    transform: scale(1.10);
+    transition: 1s;
+
+}
+
+nav.menu li a:hover {
+    /* Le bouton est grossie de 10% */
+    -webkit-transform: scale(1.10);
+    /* Safari et Chrome */
+    -moz-transform: scale(1.10);
+    /* Firefox */
+    -ms-transform: scale(1.10);
+    /* Internet Explorer 9 */
+    -o-transform: scale(1.10);
+    /* Opera */
+    transform: scale(1.10);
+    transition: all 500ms;
+    box-shadow: 1px 1px 2px 1px #8DA96A;
+
+}
+
+#manuelles {
+    transition: 2s,
+
+        opacity 3s;
+}
+
+#electriques {
+    transition: 2s,
+        opacity 3s;
+}
+
+#thermiques {
+    transition: 2s,
+        opacity 3s;
+}
+
+/*==============================================================
+Corps
+==============================================================*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #353F27;
+    background-color: #E5E5E5;
+}
+
+main {
+
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: #1B5734;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fil {
+    display: flex;
+    justify-content: first baseline;
+    margin: 20px;
+}
+
+
+button {
+    background-color: #1B5734;
+    color: #FFFBF7;
+    margin: 20px;
+    width: 259px;
+    height: 65px;
+    left: 1020px;
+    top: 990px;
+    font-size: 24px;
+
+}
+
+.txt {
+    margin-left: 50px;
+    padding: 0;
+}
+
+
+.pouss_toujours {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 24px;
+}
+
+.princip_bloc {
+    display: flex;
+    flex-direction: row;
+}
+
+h2::before {
+    content: url(images/feuille.svg);
+}
+
+h2::after {
+    content: url(images/feuille_droite.svg)
+}
+
+.contacter::before {
+    content: url(images/feuille.svg)
+}
+
+.wrapper {
+    margin: auto;
+    width: 1200px;
+    max-width: 1200px;
+}
+
+button {
+    margin-left: 0;
+}
+
+button .active {
+    background: #fff;
+    color: #1B5734;
+}
+
+button :hover {
+    background: #fff;
+    color: #1B5734;
+}
+
+#valentines:hover {
+
+    -webkit-transform: scale(1.10);
+    /* Safari et Chrome */
+    -moz-transform: scale(1.10);
+    /* Firefox */
+    -ms-transform: scale(1.10);
+    /* Internet Explorer 9 */
+    -o-transform: scale(1.10);
+    /* Opera */
+    transform: scale(1.10);
+    transition: all 500ms;
+}
+
+
+nav.envois button:hover {
+    cursor: pointer;
+    background-color: #1B5734;
+    -webkit-transform: scale(1.10);
+    /* Safari et Chrome */
+    -moz-transform: scale(1.10);
+    /* Firefox */
+    -ms-transform: scale(1.10);
+    /* Internet Explorer 9 */
+    -o-transform: scale(1.10);
+    /* Opera */
+    transform: scale(1.10);
+    transition: all 500ms;
+    box-shadow: 1px 1px 2px 1px #8DA96A;
+}
+
+#autres1:hover {
+    cursor: pointer;
+
+    -webkit-transform: scale(1.10);
+    /* Safari et Chrome */
+    -moz-transform: scale(1.10);
+    /* Firefox */
+    -ms-transform: scale(1.10);
+    /* Internet Explorer 9 */
+    -o-transform: scale(1.10);
+    /* Opera */
+    transform: scale(1.10);
+    transition: all 500ms;
+    box-shadow: 10px 5px 5px #E5E5E5;
+}
+
+#autres2:hover {
+    cursor: pointer;
+
+    -webkit-transform: scale(1.10);
+    /* Safari et Chrome */
+    -moz-transform: scale(1.10);
+    /* Firefox */
+    -ms-transform: scale(1.10);
+    /* Internet Explorer 9 */
+    -o-transform: scale(1.10);
+    /* Opera */
+    transform: scale(1.10);
+    transition: all 500ms;
+    box-shadow: 10px 5px 5px #E5E5E5;
+}
+
+#autres3:hover {
+    cursor: pointer;
+
+    -webkit-transform: scale(1.10);
+    /* Safari et Chrome */
+    -moz-transform: scale(1.10);
+    /* Firefox */
+    -ms-transform: scale(1.10);
+    /* Internet Explorer 9 */
+    -o-transform: scale(1.10);
+    /* Opera */
+    transform: scale(1.10);
+    transition: all 500ms;
+    box-shadow: 10px 5px 5px #E5E5E5;
+}
+
+/*==============================================================
+    Contact
+==============================================================*/
+
+
+.Contacter {
+    background-color: #E2D2C3;
+    background-color: rgba(226, 210, 195, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px;
+}
+
+.complet {
+    margin-bottom: 30px;
+
+}
+
+textarea {
+    width: 464px;
+    height: 188px;
+}
+
+.formulaires {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    width: 450px;
+    height: 100px;
+    padding: auto;
+}
+
+.post {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.envois {
+    display: flex;
+    justify-content: end;
+}
+
+h4 {
+    display: flex;
+}
+
+span {
+    display: flex;
+    margin: auto;
+}
+
+#mPrenom {
+    margin-top: 0px;
+}
+
+#mNom {
+    margin-top: 0;
+}
+
+#mTel {
+    margin-top: 0;
+}
+
+#mMail {
+    margin-top: 0;
+}
+
+/*==============================================================
+footer
+==============================================================*/
+footer {
+    background-color: #E2D2C3;
+    list-style-type: none;
+    width: 100;
+    width: 100;
+    padding: 50;
+}
+
+.les_tondeuses {
+    display: flex;
+    flex-direction: column;
+}
+
+.Mention_légales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.réseaux_Sociaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.adresses {
+    display: flex;
+    justify-content: center;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*==============================================================
+Media Queries
+ ==============================================================*/
+/*==============================================================
+ Media Queries Écrans 960x1280
+ ==============================================================*/
+@media screen and (max-width: 1280px) {
+    .haut {
+        margin: auto;
+    }
+
+    .search {
+        margin-right: auto;
+    }
+
+    .la_valentine {
+        width: auto;
+        margin: auto;
+    }
+
+    .Votre_magasin {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .autres {
+        margin: auto;
+        width: auto;
+
+    }
+
+    .Les_tondeuses {
+        margin: auto;
+    }
+
+    .mention_legales {
+        margin-right: 200px;
+    }
+
+    .reseaux_Sociaux {
+        margin-right: 400px;
+
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    #burger {
+        left: 0;
+    }
+
+    ul.menu {
+        position: relative;
+        left: -4000px;
+    }
+
+    ul.is_visible {
+        left: 0;
+        margin-right: 800px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+}
+
+/*==============================================================
+ Media Queries Écrans 320x568
+ ==============================================================*/
+@media screen and (max-width: 960px) {
+    .devise {
+        display: none;
+    }
+
+    .slogan {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fil {
+        display: none;
+    }
+
+    .titre {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .icone {
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+
+    li.active {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .search {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin: 0;
+    }
+
+    .search :nth-last-child() {
+        display: flex;
+        align-content: flex-start;
+
+    }
+
+    .inframe iframe {
+        display: block;
+        width: 95%;
+        margin: auto;
+    }
+
+    .princip_bloc {
+        flex-direction: column;
+    }
+
+    .princip_bloc p {
+        padding: auto;
+    }
+
+    .form {
+        flex-wrap: wrap;
+    }
+
+    .Contacter {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .Les_tondeuses {
+        display: none;
+    }
+
+    .réseaux_Sociaux {
+        display: none;
+    }
+
+    .Mention_légales {
+        align-items: center;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .adresses {
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .form input,
+    textarea {
+        max-width: 450px;
+        width: 95vw;
+    }
+
+    .Mail {
+        display: flex;
+    }
+
+    #burger {
+        left: 0;
+    }
+
+    ul.menu {
+        position: relative;
+        left: -4000px;
+    }
+
+    ul.is_visible {
+        left: 0;
+        margin-right: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
